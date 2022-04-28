@@ -1,1 +1,1 @@
-# cardGame-war
+# card-game-war
