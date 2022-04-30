@@ -5,7 +5,7 @@ To win, one player must have all cards in their deck or one player runs out of c
 
 # CSS
 ### Reset CSS
-Stylesheet to remove all formating from the page before applying any CSS changes.
+Stylesheet to remove all formating being applied by browsers before applying CSS changes.
 ### Style CSS
 Styles and renders the external design of the game.
 ### Card Images and CSS 

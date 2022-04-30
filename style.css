@@ -1,2 +1,67 @@
 /*CSS for Main Game except Cards*/
 /*Card CSS is found in /card-deck-css/css */
+
+header {
+    padding: 30px 30px 20px 30px;
+    color: rgb(178, 202, 238);
+    background-color: rgb(43, 64, 96);
+}
+
+h1{
+    text-align: center;
+    font-size: 22px;
+    padding-bottom: 1em;
+}
+
+header h2 {
+    text-align: center;
+    font-size: 18px;
+}
+
+nav {  
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    padding-top: 2em;
+}
+
+a{
+    color: rgb(178, 202, 238);
+    list-style-type: none;
+    text-decoration: none;
+}
+
+html, body{
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+.content {
+    flex: 1 0 auto;
+}
+.social {
+    width: 3em;
+    height: 3em;
+}
+
+#copyright{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#bottomFooter{
+    font-size: 10px;
+}
+
+footer {
+    padding: 30px 30px 20px 30px;
+    color: rgb(178, 202, 238);
+    background-color: rgb(43, 64, 96);
+    border-top: 1px solid #f0efef;
+}
+
