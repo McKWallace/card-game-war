@@ -1,8 +1,20 @@
 //Objective: The game ends and a winner is determined when one player holds all the cards.
 //need two players for the game to play
+let players = () => {
+    this.player1 = player1;
+    this.player2 = player2;
+
+}
+
 //display deck of cards in the middle of the page 
     //obtain cards with images and code to display
     //display on the page
+
+fetch('https://deckofcardsapi.com/api/deck/new/').then(res => {
+        console.log(res);
+    });
+    
+
 //display card count number boxes for each player
     //label and content areas
     //connect output display with the player's current card count.
