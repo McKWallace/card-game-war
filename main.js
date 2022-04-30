@@ -1,18 +1,24 @@
+
+
 //Objective: The game ends and a winner is determined when one player holds all the cards.
 //need two players for the game to play
-let players = () => {
-    this.player1 = player1;
-    this.player2 = player2;
-
+//only two players in the game at a time (computer vs computer -stretch goal)
+class Players{
+    constructor(player, playersDeck) {
+        this.player = player;
+        this.playersDeck = playersDeck;
+    }
 }
 
 //display deck of cards in the middle of the page 
     //obtain cards with images and code to display
     //display on the page
-
-fetch('https://deckofcardsapi.com/api/deck/new/').then(res => {
+let url = "https://deckofcardsapi.com/api/deck/new/"
+let newDeck = (fetch(url)).then(res => {
         console.log(res);
     });
+
+console.log(newDeck);
     
 
 //display card count number boxes for each player
